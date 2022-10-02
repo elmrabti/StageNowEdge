@@ -1,0 +1,215 @@
+\chapter{Réalisation et résultats}
+
+\section{Introduction}
+
+Après avoir achevé l’étape d’analyse et conception de l’application, on va entamer dans ce chapitre la partie réalisation et implémentation dans laquelle on va s’assurer que le système est prêt pour être exploité par les utilisateurs finaux. Premièrement on choisit les technologies et puis on procède à la réalisation.
+
+
+\section{Choix des technologies}
+
+\subsection{UML}
+
+Le Langage de Modélisation Unifié, de l'anglais Unified Modeling Language (UML), est un langage de modélisation graphique à base de pictogrammes conçu comme une méthode normalisée de visualisation dans les domaines du développement logiciel et en conception orientée objet.
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[height=8cm]{UML.svg.png}
+\end{center}
+\caption{UML}
+\end{figure}
+
+
+\subsection{Next js}
+
+Next.js est un cadriciel (framework) gratuit et open source s'appuyant sur la librairie JavaScript React et sur la technologie Node.js.
+
+Le framework permet de créer des applications web universelles ou parfois appelées isomorphiques, signifiant que le code source est partagé entre le client et le serveur, de même que le font ses concurrents (Gatsby, Nuxt.js, Blitz).
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[height=6cm]{Nextjs.svg.png}
+\end{center}
+\caption{NEXT.JS}
+\end{figure}
+
+\subsection{Postgresql}
+
+PostgreSQL est un système de gestion de base de données relationnelle orienté objet puissant et open source qui est capable de prendre en charge en toute sécurité les charges de travail de données les plus complexes. Alors que MySQL donne la priorité à l'évolutivité et aux performances, Postgres donne la priorité à la conformité et à l'extensibilité SQL.
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[height=8cm]{Postgresql.svg.png}
+\end{center}
+\caption{Postgresql}
+\end{figure}
+
+
+
+\subsection{Cassandra}
+
+Apache Cassandra est un système de gestion de base de données (SGBD) de type NoSQL conçu pour gérer des quantités massives de données sur un grand nombre de serveurs, assurant une haute disponibilité en éliminant les points de défaillance unique. Il permet une répartition robuste sur plusieurs centres de données 3, avec une réplication asynchrone sans nœud maître et une faible latence pour les opérations de tous les clients.
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[height=6cm]{Cassandra.svg.png}
+\end{center}
+\caption{Cassandra}
+\end{figure}
+
+
+\subsection{Tailwind CSS}
+
+Tailwind CSS est un framework utility-fist CSS (feuilles de style en cascade) avec des classes prédéfinies que vous pouvez utiliser pour construire et concevoir des pages web directement dans votre balisage. Il vous permet d’écrire du CSS dans votre HTML sous la forme de classes prédéfinies.
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[height=5cm]{tailwindcss.png}
+\end{center}
+\caption{Tailwind CSS}
+\end{figure}
+
+
+
+
+\subsection{Latex}
+
+LaTeX (dont le logo est \LaTeX) est un langage et un système de composition de documents. Il s'agit d'une collection de macro-commandes destinées à faciliter l'utilisation du « processeur de texte » TeX de Donald Knuth.
+
+LaTeX permet de rédiger des documents dont la mise en page est réalisée automatiquement en se conformant du mieux possible à des normes typographiques. Une fonctionnalité distinctive de LaTeX est son mode mathématique, qui permet de composer des formules complexes.
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[height=6cm]{LaTeX.svg.png}
+\end{center}
+\caption{\LaTeX}
+\end{figure}
+
+\subsection{Visual Studio Code}
+
+Visual Studio Code est un éditeur de code extensible développé par Microsoft pour Windows, Linux et macOS.
+
+Les fonctionnalités incluent la prise en charge du débogage, la mise en évidence de la syntaxe, la complétion intelligente du code, les snippets, la refactorisation du code et Git intégré. Les utilisateurs peuvent modifier le thème, les raccourcis clavier, les préférences et installer des extensions qui ajoutent des fonctionnalités supplémentaires.
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[height=4cm]{vscode.svg.png}
+\end{center}
+\caption{vscode}
+\end{figure}
+
+
+\subsection{Strapi}
+
+Strapi est un CMS (Content Management System) en open source qui aide les entreprises à concevoir des architectures personnalisées en vue d'assister les développeurs, responsables et équipes dans la création et la gestion de contenus pour les projets d'applications mobiles et de sites web. La plateforme prend plusieurs bases de données en charge (notamment MongoDB, MySQL, SQLite et Postgres) afin de favoriser l'échange d'informations entre différentes sources de données.
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[height=6cm]{strapi.png}
+\end{center}
+\caption{Strapi}
+\end{figure}
+
+
+\subsection{Vercel}
+
+Vercel (anciennement connu sous le nom de ZEIT) est une plate-forme cloud qui permet aux développeurs d'héberger des sites Web et des services Web qui se déploient instantanément, évoluent automatiquement et ne nécessitent aucune supervision.
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[height=6cm]{vercel.png}
+\end{center}
+\caption{Vercel}
+\end{figure}
+
+
+\subsection{Heroku}
+
+Heroku est une plate-forme cloud en tant que service (PaaS) prenant en charge plusieurs langages de programmation. L'une des premières plates-formes cloud, Heroku est en développement depuis juin 2007, lorsqu'elle ne prenait en charge que le langage de programmation Ruby, mais prend désormais en charge Java, Node.js, Scala, Clojure, Python, PHP et Go.[3] Pour cette raison, Heroku est considéré comme une plate-forme polyglotte car il dispose de fonctionnalités permettant à un développeur de créer, d'exécuter et de mettre à l'échelle des applications de la même manière dans la plupart des langages.
+
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[height=3cm]{heroku.svg.png}
+\end{center}
+\caption{Heroku}
+\end{figure}
+
+
+\section{Interfaces graphiques}
+
+\subsection{Page de login}
+
+Page de login pour s'authentifier comme utilisateur du système
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[height=10cm]{log.png}
+\end{center}
+\caption{Page de login }
+\end{figure}
+
+
+\subsection{Profile du patient}
+
+le profile du patient contient ses informations personnelles.
+
+\newpage
+
+
+\begin{figure}[!h]
+\centering
+\begin{center}
+\includegraphics[height=10cm,width=18cm]{profile.jpeg}
+\end{center}
+\caption{Profile du patient}
+\end{figure}
+
+
+\subsection{Dossier medical du patient}
+
+Le dossier médical du patient contient les dernières actions faites par le patients
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[height=8cm,width=18cm]{med.png}
+\end{center}
+\caption{Dossier medical du patient}
+\end{figure}
+
+\subsection{Page d'inscription}
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[height=8cm,width=18cm]{reg.png}
+\end{center}
+\caption{Page d'inscription}
+\end{figure}
+
+\newpage
+
+\subsection{Page de recherche}
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[height=8cm,width=18cm]{search.jpeg}
+\end{center}
+\caption{Page de recherche}
+\end{figure}
+
+
+\subsection{Interface d'ajout des patients pour l'admin}
+
+\newpage
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[height=6cm,width=18cm]{backadmin.jpeg}
+\end{center}
+\caption{ajout des patients pour l'admin}
+\end{figure}
+
+
+
+
+\section{Conclusion}
+La terminaison de cette étape marque la fin de notre projet, il reste à voir le résultat réél de ce projet et en tirer des conclusions, et puis voir des améliorations possible en guise de perspective.
+
